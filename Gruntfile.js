@@ -100,13 +100,13 @@ module.exports = function(grunt) {
 
     // Copying htmls, images, fonts and other files to build
 		copy:{
-			html:{
-				expand:true,
-				cwd:'source/',
-				src:['*.html'],
-				dest:'build/',
-        ext:'.html'
-			},
+			// html:{
+			// 	expand:true,
+			// 	cwd:'source/',
+			// 	src:['*.html'],
+			// 	dest:'build/',
+   //      ext:'.html'
+			// },
 
 			images:{
 				expand:true,
