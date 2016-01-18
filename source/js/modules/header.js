@@ -13,4 +13,4 @@ Shangrila.header = {
   logConsole: function() {
     console.log('This is header!!');
   }
-}
+};

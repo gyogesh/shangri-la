@@ -13,4 +13,4 @@ Shangrila.footer = {
   logConsole: function() {
     console.log('This is footer!!');
   }
-}
+};
