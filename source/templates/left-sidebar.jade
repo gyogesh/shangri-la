@@ -1,0 +1,20 @@
+block config
+  include ../components/config
+
+doctype
+html.no-js(lang="en")
+  include ../components/header
+
+  body
+    .container-fluid
+      .template-left-sidebar
+        .row.clearfix
+          .content-sidebar.col-md-4
+            block contentSidebar
+              | this would be replaced by the page' partial HTML content
+          .content-main.col-md-8
+            block contentMain
+              | this would be replaced by the page' partial HTML content
+              
+        
+    include ../components/footer

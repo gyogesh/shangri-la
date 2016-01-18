@@ -1,0 +1,11 @@
+extends ../templates/left-sidebar
+
+append config
+  - var Page = {title:"Sitemap",section:"home",theme:""}
+  - var Meta = {description:"",keywords:""}
+
+block contentMain
+  include ../modules/header
+
+block contentSidebar
+  include ../modules/footer

@@ -1,0 +1,26 @@
+head
+  title #{Page.title}
+  meta(charset="utf-8")
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+  title #{Page.title}
+  meta(name="description", content=Meta.description)
+  meta(name="keywords", content=Meta.keywords)
+  meta(name="HandheldFriendly", content="True")
+  meta(name="MobileOptimized", content="320")
+  meta(name="format-detection", content="telephone=no")
+  meta(name="viewport", content="width=device-width,initial-scale=1.0,maximum-scale=1.0")
+
+  // build:css css/vendors.css
+  link(rel="stylesheet", href="css/vendors/bootstrap.css")
+  link(rel="stylesheet", href="css/vendors/bootstrap-theme.css")
+  // endbuild
+
+  link(rel="stylesheet", href="css/base.css")
+  link(rel="stylesheet", href="css/modules.css")
+
+  // build:js js/modernizr-2.8.2.min.js
+  script(src="js/vendors/modernizr-2.8.2.min.js")
+  // endbuild
+
+  script(src="https://maps.googleapis.com/maps/api/js")
+  //script(src="http://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer)
