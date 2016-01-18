@@ -12,5 +12,6 @@ Shangrila.header = {
 
   logConsole: function() {
     console.log('This is header!!');
+    console.log('adding changes from bhabanis desk');
   }
 };
