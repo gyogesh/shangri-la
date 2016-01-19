@@ -6,4 +6,4 @@ build/
 node_modules/
 .log
 *.css.map
-npm-debug.log
+source/npm-debug.log
